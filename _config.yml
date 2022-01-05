@@ -88,7 +88,7 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
 index_img:
@@ -410,7 +410,14 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: >
+    <span>
+      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51140202000398" target="_blank" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+        <img src="/blog/images/beian_icon.png" style="float:left;" />
+        川公网安备 51140202000398号
+      </a>
+    </span>
+    <a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备2021032866号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -512,7 +519,7 @@ footer_bg: false
 rightside-bottom:
 
 # Enter transitions (開啓網頁進入效果)
-enter_transitions: true
+enter_transitions: false
 
 # Background effects (背景特效)
 # --------------------------------------
@@ -643,9 +650,9 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/xebecnan
   card_announcement:
-    enable: true
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
